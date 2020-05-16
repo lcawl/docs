@@ -50,6 +50,43 @@ toc_extra: extra/docs_landing.html
 contents:
     -   title:      Elastic Stack
         sections:
+          - title:      Play
+            prefix:     en/stack
+            current:    master
+            index:      docs/en/stack/index-landing.asciidoc
+            branches:   [ master ]
+            chunk:      1
+            tags:       Elastic Stack
+            subject:    Elastic Stack
+            sources:
+              -
+                repo:   stack-docs
+                path:   docs/en
+              -
+                repo:   beats
+                path:   libbeat/docs
+              -
+                repo:   elasticsearch
+                path:   docs/
+              -
+                repo:   elasticsearch-hadoop
+                path:   docs/src/reference/asciidoc
+              -
+                repo:   kibana
+                path:   docs/
+              -
+                repo:   logstash
+                path:   docs/
+              -
+                repo:   elasticsearch
+                path:   x-pack/docs
+                private: true
+              -
+                repo:   docs
+                path:   shared/versions/stack/{version}.asciidoc
+              -
+                repo:   docs
+                path:   shared/attributes.asciidoc
           - title:      Installation and Upgrade Guide
             prefix:     en/elastic-stack
             current:    &stackcurrent 7.7

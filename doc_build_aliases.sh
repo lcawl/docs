@@ -194,3 +194,8 @@ alias docbldall='$GIT_HOME/docs/build_docs --all --target_repo git@github.com:el
 
 # Machine learning
 alias docbldml='$GIT_HOME/docs/build_docs --doc $GIT_HOME/stack-docs/docs/en/stack/ml/index.asciidoc --resource $GIT_HOME/elasticsearch/docs --chunk 1'
+
+# Play
+alias docbldplay='$GIT_HOME/docs/build_docs --doc $GIT_HOME/stack-docs/docs/en/stack/index-landing.asciidoc --resource=$GIT_HOME/elasticsearch/docs/ --resource=$GIT_HOME/kibana/docs/ --resource=$GIT_HOME/beats/libbeat/docs/ --resource=$GIT_HOME/logstash/docs/ --resource=$GIT_HOME/elasticsearch/x-pack/docs/ --chunk 1'
+
+
