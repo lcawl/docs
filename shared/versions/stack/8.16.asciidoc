@@ -73,3 +73,8 @@ Synthetics
 API URLs
 ////
 :api-kibana:           https://www.elastic.co/docs/api/doc/kibana/v8
+
+////
+FEATURE FLAGS
+////
+:FeatureAIConnector:   false

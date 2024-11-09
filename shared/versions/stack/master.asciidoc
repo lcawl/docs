@@ -74,7 +74,8 @@ API URLs
 :api-kibana:           https://www.elastic.co/docs/api/doc/kibana
 
 ////
-Feature flags
+FEATURE FLAGS
 ////
 
 :serverlessCustomRoles: true
+:FeatureAIConnector:    false
